@@ -131,15 +131,48 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+        <source src="./static/videos/ICRA24_4163_VI_i%20(1).mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">Our approach models the rewards for individual observations using the corresponding object parameters, and it allows for partial evaluations of the reward
       </h2>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Method</h2>
+          <p>
+            We propose a Bayesian optimization method to improve the estimation of object material properties from observations, leveraging scene-specific parameters and partial reward evaluations for faster and more efficient optimization.
+          </p>
+          <img src="static/images/main_figure%20(1).png" alt="method"/>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              The dataset includes a wide range of deformable (sponge, slime, bag) and rigid objects (ladle, cube, cylinder) with different material properties.
+            </p>
+            <img src="static/images/dataset.png" alt="dataset"/>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
   </div>
 </section>
 
@@ -202,43 +235,6 @@
     </div>
   </section>
 <!--End paper poster -->
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Method</h2>
-          <p>
-            
-          </p>
-          <img src="static/images/main_figure%20(1).png" alt="method"/>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <img src="static/images/dataset.png" alt="dataset"/>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-  </div>
-</section>
 
 
 <section class="section" id="BibTeX">
